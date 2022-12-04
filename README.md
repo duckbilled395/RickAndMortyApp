@@ -1,2 +1,0 @@
-# RickAndMortyApp
-RickAndMortyAPI, PERN stack.
