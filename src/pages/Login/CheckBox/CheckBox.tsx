@@ -20,7 +20,7 @@ export const CheckBox: FC<PropsType> = ({ label, name, type }) => {
         </div>
         <label className="checkbox__label" htmlFor={field.name}>{label}</label>
       </div>
-      <div className="checkbox__label">
+      <div className="checkbox__label checkbox__error">
         <ErrorMessage name={field.name} />
       </div>
     </>
