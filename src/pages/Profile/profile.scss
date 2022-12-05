@@ -1,0 +1,13 @@
+.profile {
+  margin: 10px;
+
+  &__item {
+    font-size: 18px;
+    margin: 10px 0;
+
+    &_title {
+      color: #003b46;
+    }
+  }
+
+}

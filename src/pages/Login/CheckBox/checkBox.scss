@@ -1,0 +1,33 @@
+.checkbox{
+
+  &__textField {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 0 0;
+  }
+
+  &__field {
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    border: 1px solid #000000;
+  }
+
+  &__outerField {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__label{
+    display: block;
+    width: 400px;
+    margin: 0 0 0 5px;
+  }
+
+  &__error {
+    color: red;
+  }
+}
